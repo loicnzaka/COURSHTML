@@ -1,26 +1,45 @@
 /* reset css */
 /* Element + attr + value */
-html{
-    font-size: 62,5%; /* 16px * 62.5=10.00 */
+html {
+    font-size: 62.5%;
+    /* 16px * 62.5=10.00 */
 }
 
-body{
-    font : 1.6rem sans-serif;/* prprieté generale pour mettre en forme la police de caractere */
+body {
+    font: 1.6rem sans-serif;
+    /* prprieté generale pour mettre en forme la police de caractere */
     letter-spacing: .1rem;
     line-height: 1.6;
     margin: 0;
 }
-        /* on supprime toutes les marges par defaut */
-        h1,h2,h3,h3,h4,h5,h6,p,ul,ol{
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-        }
-        a{
-            color: rgb(red, green, blue);
-            text-decoration: border-box;
-        }
-        *{
-            box-sizing: border-box;
-        }
-    
+
+/* on supprime toutes les marges par defaut */
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    color: rgb(red, green, blue);
+    text-decoration: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+}

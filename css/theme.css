@@ -1,0 +1,24 @@
+@import url(./reset.css);
+
+/*theme*/
+header > h1{
+    background-color: rgba(214, 48, 49,1.0);
+    color: #fff;
+    font-weight: normal;
+    line-height: 6.5rem; /* 65px */
+    text-align: center;
+    font-size: 4.5rem;
+}
+section{
+    max-width: 60rem;
+    margin: 5rem auto;
+    border: solid .1rem #333;
+    padding: 1rem;cd
+}
+section img{
+    width: 100%;
+}
+footer*{
+    text-align: center;
+
+}
